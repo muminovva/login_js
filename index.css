@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+header{
+    padding-top: 30px;
+    min-height: 100vh;
+    background: url(./img/romantic-couple-4k-pics-ultra-hd-wallpaper-preview.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    color: white;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 400;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+a:hover{
+    color: rgb(203, 196, 196);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+.form-box{
+    position: relative;
+}
+.fa-solid{
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    right: -30px;
+}
+.fa-solid:hover{
+    color: red;
+}
+.mail{
+    margin-top: 40px;
+}
+.btn{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 400;
+    color: #fff;
+    margin-left: 40px;
+    transition: 0.2;
+}
+.btn:hover{
+    background: #fff;
+    color: #162938;
+}
+.text{
+    background: transparent;
+    width: 400px;
+    height: 440px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text.active-pop{
+    transform: (1);
+}
+.loo{
+    font-size: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.input{
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+label{
+    color: wheat;
+   font-size: 400;
+}
+input{
+   margin-bottom: 20px;
+   border-radius: 20px;
+   border: none;
+}
